@@ -12,7 +12,7 @@ class ChatEngine(object):
     def __init__(self):
 
         self.llm=DeepSeek(
-            api_key='sk-fbd6284d67a24d73bf7ebdd2be25b91e',
+            api_key='',
             api_base='https://api.deepseek.com/',
             model='deepseek-chat',
             timeout=1000,
